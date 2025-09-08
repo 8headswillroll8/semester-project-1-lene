@@ -1,0 +1,16 @@
+:root {
+  /* Colors */
+  --color-bg-light: #e3e5e8; /* light grey */
+  --color-text-dark: #404c54; /* grey */
+  --color-text-black: #141414; /* black */
+  --color-accent-1: #e8fca3; /* yellow-green */
+  --color-accent-2: #f3e3fc; /* light pink */
+  --color-accent-3: #a14ce2; /* purple */
+
+  /* Font */
+  --font-sans: "Instrument Sans", sans-serif;
+  --font-serif: "Instrument Serif", serif;
+
+  /* Font Spacing */
+  --font-serif-spacing: 0.04em;
+}
