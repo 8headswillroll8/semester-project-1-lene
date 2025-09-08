@@ -87,12 +87,15 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
-  align-items: end;
+  padding: 20px;
 }
 
 .footer__logosymbol {
+  max-width: 1200px;
+}
+
+.footer__logosymbol img {
   width: 70px;
 }
 
@@ -100,4 +103,9 @@ footer {
   color: inherit;
   text-decoration: none;
   line-height: 2.1;
+}
+
+.footer__copyright {
+  text-align: center;
+  padding-bottom: 30px;
 }
