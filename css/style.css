@@ -1,5 +1,10 @@
-/* Foundation Styles */
+@import url("variables.css");
 
+* {
+  outline: 1px solid red;
+}
+
+/* Foundation Styles */
 *,
 *::before,
 *::after {
@@ -9,4 +14,33 @@
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header__container {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  height: 100%;
+}
+
+.header__nav {
+  flex-direction: column;
+}
+
+.footer__logosymbol img {
+  height: 70px;
 }
