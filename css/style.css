@@ -88,7 +88,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 20px;
+  padding: 70px 30px 30px 30px;
 }
 
 .footer__logosymbol {
@@ -97,6 +97,11 @@ footer {
 
 .footer__logosymbol img {
   width: 70px;
+  padding-top: 15px;
+}
+
+.footer__nav {
+  padding-top: 10px;
 }
 
 .footer__nav a {
@@ -105,7 +110,21 @@ footer {
   line-height: 2.1;
 }
 
+.footer__nav a:hover {
+  text-decoration: underline;
+}
+
 .footer__copyright {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.footer__contact-icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contact-icons img {
+  max-width: 25px;
+  margin-right: 10px;
 }
