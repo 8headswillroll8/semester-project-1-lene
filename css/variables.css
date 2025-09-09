@@ -11,6 +11,8 @@
   --font-sans: "Instrument Sans", sans-serif;
   --font-serif: "Instrument Serif", serif;
 
+  --font-weight-regular: 400;
+
   /* Font Spacing */
   --font-serif-spacing: 0.04em;
 }
