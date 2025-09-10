@@ -242,8 +242,13 @@ footer {
 }
 
 .events__main_container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+  scroll-snap-type: x mandatory;
 }
 
 .events__card {
@@ -253,7 +258,6 @@ footer {
   max-width: 300px;
   border-radius: 15px;
   overflow: hidden;
-  margin: 40px 20px;
 }
 
 .events__card::before {
