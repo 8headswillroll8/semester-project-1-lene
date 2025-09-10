@@ -16,6 +16,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 body {
   font-family: var(--font-sans);
   font-size: 0.875rem;
@@ -38,13 +44,14 @@ ul {
   text-underline-offset: 10px;
 }
 
-h1 {
+h1,
+h2 {
   font-size: 3.5rem;
   font-weight: 400;
   line-height: 1.25;
 }
 
-h2 {
+h3 {
   font-weight: 400;
   font-size: 2rem;
 }
@@ -53,7 +60,7 @@ h2 {
   text-decoration: none;
   border-radius: 10px;
   padding: 15px 70px;
-  margin: 20ox 0;
+  margin: 20px 0;
 }
 
 .btn--primary {
@@ -189,7 +196,10 @@ footer {
 .hero__headline {
   color: var(--color-accent-2);
   z-index: 1;
-  margin-bottom: 200px;
+}
+
+.hero__headline h1 {
+  margin-bottom: 30px;
 }
 
 .hero__element {
@@ -220,6 +230,21 @@ footer {
 }
 
 /* Events Section */
+.events {
+  background-color: var(--color-medium);
+}
+
+.events__title {
+  max-width: 1300px;
+  margin: 0 auto;
+  color: var(--color-accent-1);
+  padding: 20px 20px;
+}
+
+.events__main_container {
+  display: flex;
+  justify-content: center;
+}
 
 .events__card {
   position: relative;
@@ -228,6 +253,7 @@ footer {
   max-width: 300px;
   border-radius: 15px;
   overflow: hidden;
+  margin: 40px 20px;
 }
 
 .events__card::before {
@@ -258,7 +284,7 @@ footer {
 .events__card-title {
   color: var(--color-accent-1);
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
   left: 15px;
   z-index: 1;
 }
