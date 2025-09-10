@@ -18,7 +18,8 @@ html {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0;
 }
 
@@ -298,4 +299,70 @@ footer {
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+/* Explore section */
+.explore {
+  background-color: var(--color-dark);
+}
+
+.explore__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  margin: 0 auto;
+  gap: 20px;
+  max-width: 1300px;
+  padding: 40px 20px;
+  /* position: relative; */
+}
+
+.explore p {
+  font-size: 2rem;
+  padding: 20px 20px;
+}
+
+.box {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.explore__box1 img,
+.explore__box2 img,
+.explore__box4 img,
+.explore__box5 img {
+  max-width: 200px;
+  height: auto;
+}
+
+.explore__box3 img,
+.explore__box6 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.explore__box1 {
+  background-color: var(--color-medium);
+  grid-column: span 2;
+}
+
+.explore__box1 p {
+  color: var(--color-accent-1);
+}
+
+.explore__box2 {
+  background-color: var(--color-accent-1);
+  grid-row: span 2;
+}
+
+.explore__box4 {
+  background-color: var(--color-accent-3);
+}
+
+.explore__box5 {
+  background-color: var(--color-light);
+  grid-column: span 2;
 }
