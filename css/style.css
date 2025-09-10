@@ -314,7 +314,6 @@ footer {
   gap: 20px;
   max-width: 1300px;
   padding: 40px 20px;
-  /* position: relative; */
 }
 
 .explore p {
@@ -325,13 +324,14 @@ footer {
 .box {
   border-radius: 15px;
   overflow: hidden;
+  position: relative;
 }
 
 .explore__box1 img,
 .explore__box2 img,
 .explore__box4 img,
 .explore__box5 img {
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
 }
 
@@ -349,8 +349,20 @@ footer {
   grid-column: span 2;
 }
 
+.explore__box1 img,
 .explore__box1 p {
   color: var(--color-accent-1);
+  position: absolute;
+}
+
+.explore__box1 p {
+  right: 8%;
+  bottom: 8%;
+}
+
+.explore__box1 img {
+  top: 5%;
+  left: 4%;
 }
 
 .explore__box2 {
@@ -358,11 +370,51 @@ footer {
   grid-row: span 2;
 }
 
+.explore__box2 img {
+  right: 18%;
+  top: 5%;
+}
+
+.explore__box2 p {
+  bottom: 5%;
+  left: 5%;
+}
+
 .explore__box4 {
   background-color: var(--color-accent-3);
+}
+
+.explore__box2 img,
+.explore__box2 p,
+.explore__box4 img,
+.explore__box4 p,
+.explore__box5 img,
+.explore__box5 p {
+  position: absolute;
+}
+
+.explore__box4 img {
+  bottom: 10%;
+  right: 2%;
+}
+
+.explore__box4 p {
+  color: #ffffff;
+  top: 4%;
+  left: 4%;
 }
 
 .explore__box5 {
   background-color: var(--color-light);
   grid-column: span 2;
+}
+
+.explore__box5 img {
+  bottom: 10%;
+  right: 6%;
+}
+
+.explore__box5 p {
+  top: 8%;
+  left: 4%;
 }
