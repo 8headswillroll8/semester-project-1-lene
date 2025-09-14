@@ -22,6 +22,12 @@ h3 {
   margin: 0;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: var(--font-sans);
   font-size: 0.875rem;
@@ -61,11 +67,18 @@ h3 {
   border-radius: 10px;
   padding: 15px 70px;
   margin: 20px 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .btn--primary {
   background-color: var(--color-accent-1);
   color: var(--color-dark);
+}
+
+.btn--primary:hover {
+  color: #ffffff;
+  background-color: var(--color-accent-3);
 }
 
 /* Header */
@@ -427,4 +440,41 @@ footer {
   max-width: 1300px;
   margin: 0 auto;
   padding: 100px 20px;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  background-color: var(--color-accent-1);
+  height: calc(100vh - 120px);
+  width: 100vw;
+  position: fixed;
+  top: 120px;
+  right: 0;
+  z-index: 999;
+  display: none;
+}
+
+.dropdown-menu__content {
+  display: flex;
+  flex-direction: row;
+  max-width: 1300px;
+  margin: 0 auto;
+  color: var(--color-dark);
+}
+
+.dropdown-menu__info {
+  display: block;
+}
+
+.dropdown-menu__content a {
+  font-size: 3rem;
+  margin-right: 20px;
+}
+
+.dropdown-menu__content p {
+  font-size: 2rem;
+}
+
+.has-dropdown:hover .dropdown-menu {
+  display: block;
 }
