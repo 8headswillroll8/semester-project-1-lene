@@ -26,6 +26,11 @@ h3 {
   margin: 0;
 }
 
+p {
+  line-height: 2;
+  font-size: 1rem;
+}
+
 html,
 body {
   margin: 0;
@@ -515,7 +520,6 @@ footer {
 
 .visit-us p {
   color: var(--color-accent-1);
-  line-height: 2;
 }
 
 .visit-us__content {
@@ -603,4 +607,35 @@ input[type="radio"] {
 .accordion input[type="radio"]:checked + label + .accordion__content {
   max-height: 100px;
   padding: 10px 0;
+}
+
+/* What's On Section */
+.whats-on__wrapper {
+  background-color: var(--color-accent-1);
+  color: var(--color-medium);
+  border-radius: 15px;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 80px;
+}
+
+.whats-on__dropdown {
+  display: flex;
+  gap: 20px;
+}
+
+.text__container {
+  max-width: 1000px;
+  height: auto;
+}
+
+.whats-on__dropdown select,
+.whats-on__dropdown input[type="date"] {
+  font-family: var(--font-sans);
+  background-color: white;
+  color: var(--color-medium);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  padding: 5px 20px;
 }
