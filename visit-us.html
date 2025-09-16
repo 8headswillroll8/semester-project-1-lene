@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>
+      Visit Us | Science Spot - Location, hours, admission, and accessibility
+    </title>
+  </head>
+  <body>
+    <header>
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="index.html" class="logo-main"
+            ><img
+              src="assets/icons/science-spot-full-logo-color.svg"
+              alt="Science Spot Logo"
+          /></a>
+        </div>
+        <div class="header__nav">
+          <nav class="header__search">
+            <ul>
+              <li>
+                <a href="#">
+                  Search
+                  <img
+                    src="assets/icons/magnifier-glass-icon-color.svg"
+                    alt="Search Icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="header__menu">
+            <ul>
+              <li class="has-dropdown">
+                <a href="#">
+                  Menu
+                  <img
+                    src="assets/icons/hamburger-menu-icon-color.svg"
+                    alt="Menu Icon"
+                  />
+                </a>
+                <!-- Dropdown Menu -->
+                <div class="dropdown-menu">
+                  <a href="#" class="dropdown-menu__close">&times;</a>
+                  <div class="dropdown-menu__content">
+                    <div class="dropdown-menu__links">
+                      <a href="#">Visit us</a>
+                      <a href="#">What's on</a>
+                      <a href="#">About</a>
+                    </div>
+                    <div class="dropdown-menu__info">
+                      <p>Monday: Closed</p>
+                      <p>Tuesday: 10:00-17:00</p>
+                      <p>Wednesday: 10:00-18:00</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="visit-us">
+        <div class="visit-us__content">
+          <div class="visit-us__info">
+            <h1>
+              The <span class="text-serif">entrance</span> is
+              <span class="text-underline">free for all.</span>
+            </h1>
+            <p>
+              There are guided tours of the museum that leave every hour. These
+              tours are 70 NOK per person and include a handy printed guide of
+              the museum. If you would like to organise a guided tour for your
+              group of 6 or more people, please contact us to arrange the tour.
+            </p>
+          </div>
+          <div class="visit-us__image">
+            <img
+              src="assets/icons/3d-element-2.png"
+              alt="Angular 3D chrome shape"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="double-image">
+        <img
+          src="assets/images/vr-headset-simulation-chair.jpg"
+          alt="Person wearing VR headset in a futuristic chair with a screen"
+        />
+        <img
+          src="assets/images/molecular-structure-model-sphere.jpg"
+          alt="Black and white molecular structure model forming a sphere."
+        />
+      </section>
+      <!-- Frequently Asked Questions -->
+      <section class="faq-section">
+        <h2>
+          <span class="text-serif">Frequently</span> asked
+          <span class="text-underline">questions</span>
+        </h2>
+        <!-- FAQ Content -->
+        <div class="faq__content">
+          <ul class="accordion">
+            <!-- faq-hours -->
+            <li>
+              <input type="radio" name="accordion" id="faq-hours" />
+              <label for="faq-hours">When is the museum open?</label>
+              <div class="accordion__content">
+                We're open Tuesday 10:00-17:00 and Wednesday 10:00-18:00. Closed
+                Mondays.
+              </div>
+            </li>
+            <!-- faq-ticket -->
+            <li>
+              <input type="radio" name="accordion" id="faq-faq-ticket" />
+              <label for="faq-ticket"
+                >Do I need a ticket if entry is free?</label
+              >
+              <div class="accordion__content">
+                Entry is free, but some special events and workshops may require
+                booking.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__container">
+        <div class="footer__logosymbol">
+          <img
+            src="assets/icons/science-spot-symbol-logo.svg"
+            alt="Science Spot Logosymbol"
+          />
+        </div>
+        <div class="footer__info">
+          <p>Monday: Closed</p>
+          <p>Tuesday: 10:00-17:00</p>
+          <p>Wednesday: 10:00-18:00</p>
+        </div>
+
+        <div class="footer__nav">
+          <ul>
+            <li><a href="#">Visit us</a></li>
+            <li><a href="#">What's on</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__address">
+          <p>Discovery Street 42</p>
+          <p>0150 Oslo</p>
+          <p>Norway</p>
+        </div>
+
+        <div class="footer__contact">
+          <p>info@sciencespot.com</p>
+          <p>+47 22 33 44 55</p>
+          <div class="footer__contact-icons">
+            <img
+              src="assets/icons/facebook-icon-color.svg"
+              alt="Facebook icon"
+            />
+            <img
+              src="assets/icons/instagram-icon-color.svg"
+              alt="Instagram Icon"
+            />
+          </div>
+        </div>
+      </div>
+      <p class="footer__copyright">© 2025 Science Spot Museum</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
