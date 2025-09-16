@@ -508,6 +508,33 @@ footer {
   cursor: pointer;
 }
 
+/* Visit us Section */
+.visit-us h1 {
+  color: var(--color-accent-2);
+}
+
+.visit-us p {
+  color: var(--color-accent-1);
+  line-height: 2;
+}
+
+.visit-us__content {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.visit-us__content img {
+  height: 600px;
+  width: auto;
+}
+
+.visit-us__info a {
+  display: inline-block;
+  margin-top: 20px;
+}
+
 /* Double image section */
 .double-image__container {
   display: flex;
