@@ -508,14 +508,34 @@ footer {
   cursor: pointer;
 }
 
+/* Double image section */
+.double-image__container {
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 20px 11px;
+}
+
+.double-image__container img {
+  width: 50%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
 /* Frequently Asked Questions Section */
 
 .faq-section {
-  max-width: 1300px;
-  margin: 0 auto;
   color: var(--color-accent-1);
+  padding: 30px 20px;
+}
+
+.faq-section__wrapper {
   background-color: var(--color-medium);
   border-radius: 15px;
+  max-width: 1300px;
+  margin: auto;
   padding: 20px 80px;
 }
 
