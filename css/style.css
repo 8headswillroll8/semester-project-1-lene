@@ -703,8 +703,10 @@ input[type="radio"] {
   color: var(--color-accent-2);
 }
 
-.content-wrapper--color-medium img {
-  max-height: 300px;
+.content-wrapper--color-medium img,
+.content-wrapper--color-accent-1 img {
+  max-height: 400px;
+  padding: 20px;
 }
 
 .about-text {
@@ -718,4 +720,9 @@ input[type="radio"] {
 
 .about-text p {
   line-height: 2;
+}
+
+.content-wrapper--color-accent-1 {
+  background-color: var(--color-accent-1);
+  color: var(--color-medium);
 }
