@@ -90,6 +90,20 @@ h3 {
   background-color: var(--color-accent-3);
 }
 
+.btn--secondary {
+  background-color: var(--color-accent-3);
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.btn--secondary:hover {
+  color: var(--color-dark);
+  background-color: var(--color-accent-1);
+}
+
 /* Header */
 header {
   background-color: var(--color-dark);
@@ -698,13 +712,32 @@ input[type="radio"] {
 }
 
 /* About Section */
+.museum__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: var(--color-accent-1);
+}
+
+.museum__container h1 {
+  color: var(--color-accent-2);
+}
+
+.img__wrapper {
+  max-height: 800px;
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 .content-wrapper--color-medium {
   background-color: var(--color-medium);
   color: var(--color-accent-2);
 }
 
 .content-wrapper--color-medium img,
-.content-wrapper--color-accent-1 img {
+.content-wrapper--color-accent-1 img,
+.content-wrapper--color-light img {
   max-height: 400px;
   padding: 20px;
 }
@@ -725,4 +758,16 @@ input[type="radio"] {
 .content-wrapper--color-accent-1 {
   background-color: var(--color-accent-1);
   color: var(--color-medium);
+}
+
+.content-wrapper--color-light {
+  background-color: var(--color-light);
+}
+
+.btn-wrapper {
+  max-width: 1300px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
