@@ -226,6 +226,7 @@ footer {
 .hero__container {
   max-width: 1300px;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
@@ -267,6 +268,12 @@ footer {
 .hero__gradient {
   position: absolute;
   overflow: hidden;
+}
+
+.hero__gradient img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Events Section */
@@ -549,6 +556,7 @@ footer {
   max-width: 1300px;
   margin: 0 auto;
   align-items: center;
+  padding: 0 20px;
 }
 
 .visit-us__content img {
@@ -777,9 +785,9 @@ input[type="radio"] {
   justify-content: center;
 }
 
-/* Media queries */
-/* Hero section */
+/* Tablet media queries */
 @media (max-width: 1024px) {
+  /* Hero */
   .hero__container {
     flex-direction: column-reverse;
   }
@@ -787,5 +795,21 @@ input[type="radio"] {
   .hero__element img {
     max-width: 400px;
     margin: 0;
+  }
+
+  .explore__container p {
+    font-size: 1.5rem;
+  }
+
+  .explore__container .text-underline {
+    text-underline-offset: 5px;
+  }
+
+  .explore__box1 img,
+  .explore__box2 img,
+  .explore__box4 img,
+  .explore__box5 img {
+    max-width: 150px;
+    height: auto;
   }
 }
