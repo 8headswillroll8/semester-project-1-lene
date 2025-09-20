@@ -481,7 +481,7 @@ footer {
 .explore__main-container {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 20px 20px;
 }
 
 .explore__main-container p {
@@ -850,11 +850,44 @@ input[type="radio"] {
 
   .events__main_container {
     gap: 10px;
-    padding: 40px 10px;
+    padding: 20px 10px;
   }
 
   .events__card {
     max-width: 200px;
+  }
+
+  .explore__main-container h2 {
+    font-size: 2.8rem;
+  }
+
+  .explore__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .explore__box2,
+  .explore__box6 {
+    display: none;
+  }
+
+  .explore__container p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .explore__box1 img,
+  .explore__box4 img,
+  .explore__box5 img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .explore__box4 p {
+    top: 0%;
+  }
+
+  .text-underline {
+    text-decoration-thickness: 1px;
   }
 
   /* footer */
@@ -865,5 +898,31 @@ input[type="radio"] {
   .footer__copyright {
     text-align: start;
     padding-left: 30px;
+  }
+
+  /* visit us */
+  .visit-us__content {
+    flex-direction: column-reverse;
+  }
+
+  .visit-us__content img {
+    height: 400px;
+  }
+
+  .double-image__container {
+    flex-direction: column;
+  }
+
+  .faq-section__wrapper {
+    padding: 10px 20px;
+  }
+
+  .accordion label {
+    font-size: 1.2rem;
+  }
+
+  .accordion__content {
+    font-size: 0.9rem;
+    line-height: 1.8;
   }
 }
