@@ -1,8 +1,8 @@
 @import url("variables.css");
 
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 /* Foundation Styles */
 *,
@@ -104,6 +104,10 @@ h3 {
   background-color: var(--color-accent-1);
 }
 
+.section {
+  padding: 0 40px;
+}
+
 /* Header */
 header {
   background-color: var(--color-dark);
@@ -158,6 +162,10 @@ header img {
 
 .header__nav a:hover {
   text-decoration: underline;
+}
+
+.dropdown-menu__info p {
+  margin: 0;
 }
 
 /* Footer */
@@ -674,25 +682,20 @@ input[type="radio"] {
   padding: 5px 20px;
 }
 
+.content-section {
+  padding-bottom: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .content__wrapper {
   display: flex;
+  width: 100%;
   background-color: var(--color-light);
   color: var(--color-medium);
   border-radius: 15px;
-  max-width: 1300px;
-  margin: 0 auto;
   padding: 40px 80px;
   position: relative;
-}
-
-.content__label {
-  background-color: var(--color-accent-1);
-  font-size: 1rem;
-  padding: 5px 10px;
-  border-radius: 10px;
-  position: absolute;
-  top: 7%;
-  right: 5%;
 }
 
 .image__wrapper {
@@ -708,10 +711,6 @@ input[type="radio"] {
   object-fit: cover;
 }
 
-.content-section {
-  padding-bottom: 20px;
-}
-
 .content-section h2 {
   font-size: 1.75rem;
   text-decoration: underline;
@@ -723,6 +722,16 @@ input[type="radio"] {
 
 .content__text {
   margin-left: 4%;
+}
+
+.content__label {
+  background-color: var(--color-accent-1);
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 7%;
+  right: 5%;
 }
 
 /* About Section */
@@ -798,6 +807,7 @@ input[type="radio"] {
     margin: 0;
   }
 
+  /* Explore */
   .explore__container p {
     font-size: 1.5rem;
   }
@@ -812,5 +822,14 @@ input[type="radio"] {
   .explore__box5 img {
     max-width: 150px;
     height: auto;
+  }
+
+  /* What's on */
+  .image__wrapper {
+    max-height: 200px;
+  }
+
+  .content__wrapper {
+    padding: 20px 40px;
   }
 }
