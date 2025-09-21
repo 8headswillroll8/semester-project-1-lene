@@ -895,6 +895,15 @@ footer {
     left: 40%;
   }
 
+  .hero__element img {
+    max-width: 250px;
+    margin: 0;
+  }
+
+  .hero__headline h1 {
+    font-size: 2rem;
+  }
+
   .events__title {
     font-size: 2.8rem;
   }
