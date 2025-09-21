@@ -91,7 +91,16 @@
             <a href="./whats-on.html" class="btn btn--primary">Explore more</a>
           </div>
           <div class="hero__element">
-            <img src="assets/icons/3d-element-1.png" alt="" />
+            <img
+              src="assets/icons/3d-element-1.png"
+              srcset="
+                assets/icons/3d-element-1-mobile.png 300w,
+                assets/icons/3d-element-1.png        600w
+              "
+              sizes="(max-width: 768px) 300px, 600px"
+              fetchpriority="high"
+              alt=""
+            />
           </div>
         </div>
         <div class="hero__gradient"></div>
