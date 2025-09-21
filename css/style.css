@@ -947,4 +947,42 @@ footer {
     font-size: 0.9rem;
     line-height: 1.8;
   }
+
+  /* what's on */
+  .whats-on__wrapper {
+    padding: 20px 20px;
+  }
+
+  .whats-on__dropdown {
+    flex-direction: column;
+  }
+
+  .whats-on__date {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .visit-date {
+    padding-bottom: 15px;
+  }
+
+  .content__wrapper {
+    flex-direction: column;
+  }
+
+  .content__label {
+    position: static;
+    align-self: flex-start;
+    display: inline-block;
+    width: auto;
+    margin-top: 12px;
+  }
+
+  .content__text {
+    margin: 0;
+  }
+
+  .content__text h2 {
+    padding-top: 10px;
+  }
 }
