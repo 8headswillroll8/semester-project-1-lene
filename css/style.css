@@ -234,6 +234,7 @@ header img {
 
 .hero {
   background-color: var(--color-dark);
+  position: relative;
 }
 
 .hero__container {
@@ -278,15 +279,26 @@ header img {
   }
 }
 
-.hero__gradient {
+.hero__gradient::before,
+.hero__gradient::after {
+  content: "";
   position: absolute;
-  overflow: hidden;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  filter: blur(100px);
 }
 
-.hero__gradient img {
-  width: 100%;
-  height: auto;
-  display: block;
+.hero__gradient::before {
+  top: 0;
+  left: 30%;
+  background: rgba(193, 108, 249, 0.745);
+}
+
+.hero__gradient::after {
+  top: 20%;
+  left: 40%;
+  background: rgba(100, 222, 241, 0.489);
 }
 
 /* Events Section */
