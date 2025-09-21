@@ -1003,4 +1003,8 @@ footer {
   .content-wrapper--color-light img {
     max-height: 300px;
   }
+
+  .content-section {
+    font-size: 2.8rem;
+  }
 }
