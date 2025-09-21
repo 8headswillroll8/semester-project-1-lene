@@ -262,7 +262,7 @@ header img {
 
 .hero__element img {
   max-width: 600px;
-  /* margin: 0 120px 100px 0; */
+
   transform: translateX(0px);
   animation: float 6s ease-out infinite;
 }
@@ -877,6 +877,24 @@ footer {
     height: 70px;
   }
   /* home page */
+
+  .hero__gradient::before,
+  .hero__gradient::after {
+    width: 250px;
+    height: 250px;
+    filter: blur(60px);
+  }
+
+  .hero__gradient::before {
+    top: 0;
+    left: 0;
+  }
+
+  .hero__gradient::after {
+    top: 20%;
+    left: 40%;
+  }
+
   .events__title {
     font-size: 2.8rem;
   }
