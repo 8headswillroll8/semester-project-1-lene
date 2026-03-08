@@ -1,6 +1,6 @@
 # Science Spot, Museum Website, Semester Project
 
-![Project preview](./images/assets/science-spot-preview.jpg)
+![Project preview](./assets/images/science-spot-preview.jpg)
 
 A family-friendly museum website built as a semester project.
 
