@@ -1,41 +1,69 @@
-# Science Spot- Museum Website - Semester Project
+# Science Spot, Museum Website, Semester Project
+
+![Project preview](./images/assets/science-spot-preview.jpg)
 
 A family-friendly museum website built as a semester project.
 
-## Pages / Features
+## Description
 
-- **Home:** hero section, highlights of the museum
-- **Visit Us:** pricing and booking information
-- **What’s On:** current and upcoming exhibitions and events
-- **About:** opening hours, directions, and accessibility
+Science Spot is a responsive museum website created as part of a semester project. The goal was to plan, design, and build a complete website from idea to finished result using front end development fundamentals.
 
-## Technologies Used
+The website was designed for a family-friendly science museum and focuses on clear navigation, accessible information, and an engaging visual presentation across multiple pages.
+
+The project includes:
+
+- A homepage with hero section and museum highlights
+- A Visit Us page with pricing and booking information
+- A What’s On page for exhibitions and events
+- An About page with opening hours, directions, and accessibility
+- Responsive layout for mobile and desktop
+- Semantic HTML, structured CSS, and JavaScript interactions
+
+## Built With
 
 - HTML5
 - CSS3
+- JavaScript
 - VS Code
-- Javascript
 
-## Project Context
+## Getting Started
 
-- Created for Frontend Developer at Noroff.
-- Goal: build a complete project from idea to finished website.
+### Installing
 
-## Credits / References
+Clone the repository:
 
-Images:
-Pexels. “Children playing with colored liquids inside the container.” https://www.pexels.com/photo/children-playing-with-colored-liquids-inside-the-container-8926838/
-Pexels. “A cute girl looking at the robot.” https://www.pexels.com/photo/a-cute-girl-looking-at-the-robot-8294829/
-Pexels. “White and black metal frame.” https://www.pexels.com/photo/white-and-black-metal-frame-7723393/
-Pexels. “Photo of moon hologram floating on water near people inside room.” https://www.pexels.com/photo/photo-of-moon-hologram-floating-on-water-near-people-inside-room-731574/
-Pexels. “Artificial intelligence illustration by Nidia Dias.” https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-could-adapt-to-an-infinite-amount-of-uses-it-was-created-by-nidia-dias-as-part-of-the-visualising-ai-pr-17485658/
-Pexels. “Pins on brown board.” https://www.pexels.com/photo/pins-on-brown-board-270549/
-Pexels. “Artificial intelligence illustration by Wes Cockx.” https://www.pexels.com/photo/an-artist-s-illustration-of-artificial-intelligence-ai-this-illustration-depicts-language-models-which-generate-text-it-was-created-by-wes-cockx-as-part-of-the-visualising-ai-project-l-18069696/
-Pexels. “Modern observatory building in urban setting.” https://www.pexels.com/photo/modern-observatory-building-in-urban-setting-32495376/
-Pexels. “Man in striped polo shirt standing beside woman in black coat.” https://www.pexels.com/photo/man-in-red-white-and-blue-striped-polo-shirt-standing-beside-woman-in-black-coat-4834820/
-Pexels. “Woman riding a virtual reality ride.” https://www.pexels.com/photo/woman-riding-a-virtual-reality-ride-6498946/
-Pexels. “Girl on a virtual reality simulator machine.” https://www.pexels.com/photo/girl-on-a-virtual-reality-simulator-machine-6498309/
-Pexels. “Globe above pool decor.” https://www.pexels.com/photo/globe-above-pool-decor-731575/
+git clone https://github.com/8headswillroll8/semester-project-1-lene.git
 
-Figma Assets:
-3D Elements Pack / 3D Shapes (Community) https://www.figma.com/design/YgjQoVS9IoFuZDomsZd6kh/3D-Elements-Pack---3D-Shapes--Community-?node-id=73-2&t=5ktPPjfA1mDGEvCa-1
+Open the project folder in your preferred code editor.
+
+Running
+
+This is a static front end project and does not require a build process.
+
+You can run the project by:
+
+Opening the folder in VS Code
+
+Running a local development server such as Live Server
+
+You can also open index.html directly in your browser.
+
+Live Site
+
+https://8headswillroll8.github.io/semester-project-1-lene/
+
+Repository
+
+https://github.com/8headswillroll8/semester-project-1-lene
+
+Contact
+
+GitHub: https://github.com/8headswillroll8
+
+Acknowledgments
+
+This project was created as part of the Frontend Developer program at Noroff.
+
+Images used in the project are from Pexels.
+
+Figma assets used in the design include 3D Elements Pack / 3D Shapes from the Figma Community.
