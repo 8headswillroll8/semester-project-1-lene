@@ -1,9 +1,5 @@
 @import url("variables.css");
 
-/* * {
-  outline: 1px solid red;
-} */
-
 /* Foundation Styles */
 *,
 *::before,
@@ -14,6 +10,7 @@
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 main {
